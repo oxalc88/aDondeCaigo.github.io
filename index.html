@@ -69,7 +69,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="content-section text-center">
+    <section id="about" class="content-section text-center p-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -133,31 +133,40 @@
     <br>
     <section id="contact">
     <form> 
-      <div class="container">
+      <div class="container" autofocus>
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contacto</h2>
-  <div class="form-group">
-     <label for="exampleInput1" class="bmd-label-floating">Tu nombre</label>
-     <input type="email" class="form-control" id="exampleInput1">
+            <h2 class="text-center">Contacto</h2>
+  <!-- Container for radio buttons -->
+    <div class="custom-control custom-radio custom-control-inline mb-1">
+      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+      <label class="custom-control-label" for="customRadioInline1">Tengo una propiedad</label>
+    </div>
+    <div class="custom-control custom-radio custom-control-inline mb-1">
+      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+      <label class="custom-control-label" for="customRadioInline2">Quiero Iniciar mi Proyecto</label>
+    </div>
+      
+    <!--  Inicio de Form  -->
+    <div class="form-group">
+     <label for="exampleInput1" class="bmd-label-floating"></label>
+     <input type="email" class="form-control" id="exampleInput1" placeholder="Nombre y Apellidos">
      <span class="bmd-help"></span>
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Correo</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Aquí te enviaremos nuestras novedades">
+    <label for="exampleInputEmail1"></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
-      <label for="exampleInputPassword1">Teléfono</label>
-     <input type="text" class="form-control" id="exampleInputPhone" placeholder="A donde quieras que te llamemos">
+      <label for="exampleInputPassword1"></label>
+     <input type="text" class="form-control" id="exampleInputPhone" placeholder="telefono">
       </div>
-      <div class="container text-center col-lg-8 mx-auto">
-        <div class="row">
-      <div class="col-sm-6">
-        <button type="submit" class="btn btn-primary">Tengo una propiedad</button>
-       </div>
-       <div class="col-sm-6">
-        <button type="submit" class="btn btn-primary">Quiero iniciar mi camino</button>
+    
+    <div class="container text-center col-lg-8 my-4">
+        <div class="row">  
+      <div class="col-sm-12">
+        <button type="submit" class="btn btn-primary btn-round">Quiero iniciar mi camino</button>
         </div>
         </div>
       </div>
@@ -180,10 +189,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
+   
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
 
