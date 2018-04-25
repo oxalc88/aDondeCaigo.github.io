@@ -26,8 +26,8 @@ h6 {
 }
 
 h1{
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+  font-family: 'Abril+Fatface', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -153,6 +153,18 @@ a:focus, a:hover {
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-stretch: normal;
+  line-height: 84px; 
+}
+
+.brand-heading {
+   text-transform: capitalize;
 }
 
 .masthead .intro-body .intro-text {
